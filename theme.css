@@ -324,9 +324,14 @@ a.external-link {
 }
 
 blockquote,
-.markdown-rendered blockquote,
-.cm-quote {
+.markdown-rendered blockquote {
   border-left: 3px solid var(--blockquote-border-color);
+  color: var(--blockquote-color);
+}
+
+.cm-quote,
+.cm-formatting-quote {
+  border-left: none;
   color: var(--blockquote-color);
 }
 
